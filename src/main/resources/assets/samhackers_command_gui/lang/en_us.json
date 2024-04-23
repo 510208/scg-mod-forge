@@ -1,0 +1,18 @@
+{
+  "gui.samhackers_command_gui.command_gui.button_mnight": "MNight",
+  "gui.samhackers_command_gui.command_gui.label_and_split_by_space_key": "and split by Space key.",
+  "gui.samhackers_command_gui.command_gui.label_note_please_place_player_name_o": "Note: Please place Player name or \"x y z\"",
+  "gui.samhackers_command_gui.command_gui.tpName": "",
+  "gui.samhackers_command_gui.command_gui.button_tp": "TP!",
+  "gui.samhackers_command_gui.command_gui.button_moon": "Noon",
+  "gui.samhackers_command_gui.command_gui.button_adventure": "Adventure",
+  "gui.samhackers_command_gui.command_gui.label_gamemode": "Gamemode",
+  "gui.samhackers_command_gui.command_gui.label_time": "Time",
+  "gui.samhackers_command_gui.command_gui.button_spector": "Spector",
+  "gui.samhackers_command_gui.command_gui.button_day": "Day",
+  "gui.samhackers_command_gui.command_gui.label_transmit": "Transmit",
+  "gui.samhackers_command_gui.command_gui.button_night": "Night",
+  "key.samhackers_command_gui.launch_command_gui": "Launch Command GUI",
+  "gui.samhackers_command_gui.command_gui.button_creative": "Creative",
+  "gui.samhackers_command_gui.command_gui.button_survival": "Survival"
+}

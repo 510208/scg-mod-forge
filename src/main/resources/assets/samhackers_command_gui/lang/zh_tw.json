@@ -1,0 +1,18 @@
+{
+  "gui.samhackers_command_gui.command_gui.button_mnight": "午夜",
+  "gui.samhackers_command_gui.command_gui.label_and_split_by_space_key": "經空白分隔的座標",
+  "gui.samhackers_command_gui.command_gui.label_note_please_place_player_name_o": "請填寫被傳誦玩家名或",
+  "gui.samhackers_command_gui.command_gui.tpName": "",
+  "gui.samhackers_command_gui.command_gui.button_tp": "TP!",
+  "gui.samhackers_command_gui.command_gui.button_moon": "正午",
+  "gui.samhackers_command_gui.command_gui.button_adventure": "冒險模式",
+  "gui.samhackers_command_gui.command_gui.label_gamemode": "設定遊戲模式",
+  "gui.samhackers_command_gui.command_gui.label_time": "設定時間",
+  "gui.samhackers_command_gui.command_gui.button_spector": "旁觀模式",
+  "gui.samhackers_command_gui.command_gui.button_day": "白天",
+  "gui.samhackers_command_gui.command_gui.label_transmit": "傳送玩家",
+  "gui.samhackers_command_gui.command_gui.button_night": "夜晚",
+  "key.samhackers_command_gui.launch_command_gui": "啟動指令GUI介面",
+  "gui.samhackers_command_gui.command_gui.button_creative": "創造模式",
+  "gui.samhackers_command_gui.command_gui.button_survival": "生存模式"
+}

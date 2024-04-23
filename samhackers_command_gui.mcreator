@@ -1,0 +1,302 @@
+{
+  "mod_elements": [
+    {
+      "name": "TimeDayset",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "time_dayset",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CommandGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "command_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/samhackerscommandgui/world/inventory/CommandGuiMenu.java",
+          "src/main/java/net/mcreator/samhackerscommandgui/network/CommandGuiButtonMessage.java",
+          "src/main/java/net/mcreator/samhackerscommandgui/client/gui/CommandGuiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Launch_command_GUI",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launch_command_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/samhackerscommandgui/procedures/Launch_command_GUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LaunchCommandGUI",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launch_command_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/samhackerscommandgui/network/LaunchCommandGUIMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "TimeNoonset",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "time_noonset",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/samhackerscommandgui/procedures/TimeNoonsetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TimeNightset",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "time_nightset",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/samhackerscommandgui/procedures/TimeNightsetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TimeMidnightset",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "time_midnightset",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/samhackerscommandgui/procedures/TimeMidnightsetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GamemodeCreative",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamemode_creative",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/samhackerscommandgui/procedures/GamemodeCreativeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gamemode"
+    },
+    {
+      "name": "GamemodeSurvival",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamemode_survival",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/samhackerscommandgui/procedures/GamemodeSurvivalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gamemode"
+    },
+    {
+      "name": "GamemodeSpector",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamemode_spector",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/samhackerscommandgui/procedures/GamemodeSpectorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gamemode"
+    },
+    {
+      "name": "GamemodeAdventure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamemode_adventure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/samhackerscommandgui/procedures/GamemodeAdventureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gamemode"
+    },
+    {
+      "name": "TpPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tp_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/samhackerscommandgui/procedures/TpPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      },
+      "path": "~/Tp"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "zh_tw": {
+      "gui.samhackers_command_gui.command_gui.button_mnight": "午夜",
+      "gui.samhackers_command_gui.command_gui.label_and_split_by_space_key": "經空白分隔的座標",
+      "gui.samhackers_command_gui.command_gui.label_note_please_place_player_name_o": "請填寫被傳誦玩家名或",
+      "gui.samhackers_command_gui.command_gui.tpName": "",
+      "gui.samhackers_command_gui.command_gui.button_tp": "TP!",
+      "gui.samhackers_command_gui.command_gui.button_moon": "正午",
+      "gui.samhackers_command_gui.command_gui.button_adventure": "冒險模式",
+      "gui.samhackers_command_gui.command_gui.label_gamemode": "設定遊戲模式",
+      "gui.samhackers_command_gui.command_gui.label_time": "設定時間",
+      "gui.samhackers_command_gui.command_gui.button_spector": "旁觀模式",
+      "gui.samhackers_command_gui.command_gui.button_day": "白天",
+      "gui.samhackers_command_gui.command_gui.label_transmit": "傳送玩家",
+      "gui.samhackers_command_gui.command_gui.button_night": "夜晚",
+      "key.samhackers_command_gui.launch_command_gui": "啟動指令GUI介面",
+      "gui.samhackers_command_gui.command_gui.button_creative": "創造模式",
+      "gui.samhackers_command_gui.command_gui.button_survival": "生存模式"
+    },
+    "en_us": {
+      "gui.samhackers_command_gui.command_gui.button_mnight": "MNight",
+      "gui.samhackers_command_gui.command_gui.label_and_split_by_space_key": "and split by Space key.",
+      "gui.samhackers_command_gui.command_gui.label_note_please_place_player_name_o": "Note: Please place Player name or \"x y z\"",
+      "gui.samhackers_command_gui.command_gui.tpName": "",
+      "gui.samhackers_command_gui.command_gui.button_tp": "TP!",
+      "gui.samhackers_command_gui.command_gui.button_moon": "Noon",
+      "gui.samhackers_command_gui.command_gui.button_adventure": "Adventure",
+      "gui.samhackers_command_gui.command_gui.label_gamemode": "Gamemode",
+      "gui.samhackers_command_gui.command_gui.label_time": "Time",
+      "gui.samhackers_command_gui.command_gui.button_spector": "Spector",
+      "gui.samhackers_command_gui.command_gui.button_day": "Day",
+      "gui.samhackers_command_gui.command_gui.label_transmit": "Transmit",
+      "gui.samhackers_command_gui.command_gui.button_night": "Night",
+      "key.samhackers_command_gui.launch_command_gui": "Launch Command GUI",
+      "gui.samhackers_command_gui.command_gui.button_creative": "Creative",
+      "gui.samhackers_command_gui.command_gui.button_survival": "Survival"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Gamemode",
+        "children": []
+      },
+      {
+        "name": "Tp",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "samhackers_command_gui",
+    "modName": "SamHacker\u0027s Command GUI",
+    "version": "1.0.0",
+    "author": "acer, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.samhackerscommandgui"
+  },
+  "mcreatorVersion": 202400115821
+}
